@@ -7,7 +7,7 @@ import 'rxjs/add/operator/toPromise';
 @Injectable()
 export class ConvidadoService {
 
-  urlConvidados = 'http://localhost:8080/Convidado-api/rs/convidados';
+  urlConvidados = 'http://localhost:8080/rs/convidados';
 
   constructor(private http: Http) {
   }
